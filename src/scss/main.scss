@@ -18,8 +18,14 @@
 // @import "../../node_modules/bootstrap/scss/variables";
 // @import "../../node_modules/bootstrap/scss/mixins";
 
+$primary: #87def0;
+$secondary: rgb(59, 28, 2);
+$body-bg: #ededed;
+
 // Import partials
 @import 'nav';
+@import "jumbotron";
+@import "ships";
 
 h3 {
   font-size: 1.5rem;
